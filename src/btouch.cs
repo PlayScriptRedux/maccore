@@ -43,7 +43,7 @@ class BindingTouch {
 	static Type CoreObject = typeof (MonoMac.Foundation.NSObject);
 	static string tool_name = "bmac";
 	static string compiler = "mcs";
-	static string net_sdk = "4";
+	static string net_sdk = "4.5";
 #else
 	static string baselibdll = "/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll";
 	static string RootNS = "MonoTouch";
